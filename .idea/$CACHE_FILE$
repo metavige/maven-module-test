@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleLocalSettings">
+    <option name="modificationStamps">
+      <map>
+        <entry key="$USER_HOME$/workspace/quanta/apigw/agent" value="2904314081000" />
+        <entry key="$USER_HOME$/workspace/quanta/iot/iot-platform/consumer-agent" value="1450060976000" />
+        <entry key="/Volumes/RamDisk/springtest" value="1488736936000" />
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$/playground/java/k8s-client" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="YarnPnpManager">
+    <pnp-files />
+  </component>
+</project>
