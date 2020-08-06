@@ -42,5 +42,11 @@
                 </plugin>
             </plugins>
         </pluginManagement>
+        <plugins>
+            <plugin>
+                <groupId>me.ccampo</groupId>
+                <artifactId>git-version-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
     </build>
 </project>
