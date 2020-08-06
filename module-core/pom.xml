@@ -23,6 +23,10 @@
     <build>
         <plugins>
             <plugin>
+                <groupId>me.ccampo</groupId>
+                <artifactId>git-version-maven-plugin</artifactId>
+            </plugin>
+            <plugin>
                 <groupId>com.hbakkum.maven.plugins</groupId>
                 <artifactId>resolve-parent-version-maven-plugin</artifactId>
             </plugin>
