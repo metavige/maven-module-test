@@ -5,12 +5,13 @@
     <parent>
         <artifactId>module-parent</artifactId>
         <groupId>org.example</groupId>
-        <version>0.1.0</version>
+        <version>${myproject.version}</version>
         <relativePath>../module-parent</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>module-core</artifactId>
+    <version>0.1.0</version>
 
     <dependencies>
         <dependency>
@@ -24,6 +25,10 @@
             <plugin>
                 <groupId>me.ccampo</groupId>
                 <artifactId>git-version-maven-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <groupId>com.hbakkum.maven.plugins</groupId>
+                <artifactId>resolve-parent-version-maven-plugin</artifactId>
             </plugin>
         </plugins>
     </build>
