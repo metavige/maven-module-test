@@ -30,6 +30,13 @@
                 <groupId>com.hbakkum.maven.plugins</groupId>
                 <artifactId>resolve-parent-version-maven-plugin</artifactId>
             </plugin>
+            <plugin>
+                <artifactId>maven-site-plugin</artifactId>
+                <configuration>
+                    <skip>false</skip>
+                    <skipDeploy>false</skipDeploy>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 </project>
